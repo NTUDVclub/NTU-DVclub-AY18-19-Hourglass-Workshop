@@ -12,8 +12,8 @@ unsigned long delaytime = 90; //delaytime
 
 //The following three are for LED matrix with MAX7219
 #define DIN 12
-#define CS 10
-#define CLK 11
+#define CS 11
+#define CLK 10
 //ledcontrol setup:
 LedControl lc = LedControl(DIN, CLK, CS, 2);
 
